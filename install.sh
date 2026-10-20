@@ -21,9 +21,9 @@ a release binary (musl build on Alpine) and verifies its sha256. An existing
 install is upgraded in place: config, login state and inbox are kept, and a
 running wx-bot service is restarted.
 
-  --system    install to /usr/local/bin (default: ~/.local/bin)
+  --system    install to /usr/local/bin (default: ~/home/.local/bin)
   --service   install systemd --user unit (Linux) or launchd plist (macOS)
-  --prefix    install prefix (default ~/.local or /usr/local with --system)
+  --prefix    install prefix (default ~/home/.local or /usr/local with --system)
   --version   install this release tag instead of the latest
   --release   download a release even when building from source is possible
 
