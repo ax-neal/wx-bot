@@ -28,7 +28,7 @@
 ---
 
 > [!IMPORTANT]
-> **🤖 如果你是 Agent：先读 [`AGENTS.md`](https://github.com/lawrencewzen/wx-bot/blob/main/AGENTS.md)，找到你对应的文件，按步骤执行。**
+> **🤖 如果你是 Agent：先读 [`AGENTS.md`][https://github.com/ax-neal/wx-bot/blob/main/AGENTS.md)，找到你对应的文件，按步骤执行。**
 > Grok Bot：创建 routine 后，**必须在聊天回复里直接发出「Webhook URL」和「Webhook key」两个字段链接**，用户自己找不到。
 
 ## 特点
@@ -49,7 +49,7 @@ WeChat ──iLink──▶ wx-bot (inbox) ──webhook / pull──▶ Agent
 把这句话发给你的 Grok Bot 或 Muse：
 
 ```
-帮我用 wx-bot 把微信接入你：https://github.com/lawrencewzen/wx-bot
+帮我用 wx-bot 把微信接入你：https://github.com/ax-neal/wx-bot
 ```
 
 它会自己装好，你只需要**用微信扫码**（Grok 还要你点两个链接，把 URL 贴回聊天、把 key 填进加密框）。
